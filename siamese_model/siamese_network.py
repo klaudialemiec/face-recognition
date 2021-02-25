@@ -149,22 +149,3 @@ for i in range(0, 5):
     cv2.imshow("Positive " + str(i), positive)
     cv2.imshow("Negative " + str(i), negative)
 cv2.waitKey(0)
-
-
-# from image_prepocessing import preprocessing
-# import cv2
-#
-# images, _ = images_loader.load_images()
-# #embedder = embedder_loader.load_embeddings("../data/embedder/images_and_embeddings.pkl")\
-# images = next(iter(images.values()))
-#
-# tmp = images[0]
-# tmp_p = preprocessing.preprocess_image(tmp, 160, 160)[0]
-# cv2.imshow("pps", tmp_p)
-# siamese_model = create_model()
-# emb = siamese_model(Input(tmp_p))
-# print(emb)
-
-
-#trained_model = learn(siamese_model, embedder)
-#save_model_to_file(trained_model, "./dupms/siamese_model.json", "./dupms/siamese_model.h5")
