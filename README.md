@@ -16,5 +16,5 @@ Raw image | Processed image
 
 Then it was compared with diffrent images included in dataset. If person was recognized, the app returns input image with detected and labelled face with identified one name.
 
-Example:
+Example:<br/>
 ![](https://github.com/klaudialemiec/face-recognition/blob/master/examples/output.png)
