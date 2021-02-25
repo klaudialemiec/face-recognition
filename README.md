@@ -18,3 +18,5 @@ Then it was compared with diffrent images included in dataset. If person was rec
 
 Example:<br/>
 ![](https://github.com/klaudialemiec/face-recognition/blob/master/examples/output.png)
+
+*Authors: Klaudia Lemiec (ealier Klaudia Herkt), Radosław Lemiec*
