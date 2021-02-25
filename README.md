@@ -10,5 +10,11 @@ To achive the goal we realized the following steps:
 
 For new input image the face was detected and preprocessed. 
 
-Then it was compared with diffrent images included in dataset. If person was recognized, the app returns name of identified one.
+Raw image | Processed image
+--- | ---
+![](https://github.com/klaudialemiec/face-recognition/blob/master/examples/raw-image.png) | ![](https://github.com/klaudialemiec/face-recognition/blob/master/examples/processed.png)
 
+Then it was compared with diffrent images included in dataset. If person was recognized, the app returns input image with detected and labelled face with identified one name.
+
+Example:
+![](https://github.com/klaudialemiec/face-recognition/blob/master/examples/output.png)
